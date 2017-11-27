@@ -1,12 +1,6 @@
 package com.prime;
 public class Prime {
-	public static void main(String[] args) {
-
-		int num = 9;
-		System.out.println("NUMBER "+ num + " IS " + (isPrime(num)==true?"PRIME":"NOT PRIME"));
-	}
-
-	private static boolean isPrime(int n) {
+	public static boolean isPrime(int n) {
 		// check if number is positive
 		if (n <= 1)
 			return false;
